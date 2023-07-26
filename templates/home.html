@@ -10,10 +10,12 @@
 
     <div> 
         <a href="{{url_for('home')}}">home</a>
-        <a href="{{url_for('page1')}}">index</a>
-        <a href="{{url_for('page2')}}">info</a>
+
+        <a href="{{url_for('bform')}}">form</a>
+        <a href="{{url_for('booklist')}}">info</a>
+
     </div>
-    <a href="{{url_for('list')}}">show</a>
+   
     {% block content %}
 
     {% endblock %}
